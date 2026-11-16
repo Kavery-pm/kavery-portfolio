@@ -40,3 +40,27 @@
 /* Solid fallbacks preserve contrast when gradients are unavailable. */
 .desk{background-color:#aa886c}.desk-index{background-color:#c9cdbe}.id-shell{background-color:#eeeadd}.book-cover{background-color:#a6aad3;background-image:linear-gradient(100deg,#8990b9,#a6aad3 30%,#a6aad3 70%,#9399c3)}
 .view-switch{background:#202525}.project-tags>li{background:#252e28}.art-columns small,.search-art{color:#46513e}.food-art-bowl{color:#465332}
+/* Near-black, lavender, and white: one palette across the portfolio. */
+:root{color:#f5f5fa;background:#0b0b13;--cream:#f5f5fa;--muted:#c5c5d2;--accent:#9293ff;--line:#ffffff24}
+::selection{background:#9293ff;color:#0b0b13}
+button:focus-visible,a:focus-visible{outline-color:#b3b4ff}
+.wordmark>span,.intro-role,.section-intro h2 em,.closing h2 em,.closing-spark,.work-card h3 svg,.quick-list>button>svg{color:#9293ff}
+.topnav{border-bottom-color:#ffffff16}.topnav nav,.intro-kicker,.intro-proof,.intro-right p,.section-intro>p,.eyebrow,.under-desk,.quick-list>button>span>span,footer,.closing-location{color:#c5c5d2}
+.contact-nav,.intro-actions>.intro-primary{background:#9293ff;color:#0b0b13;border-color:#9293ff}
+.contact-nav:hover,.intro-actions>.intro-primary:hover{background:#b0b1ff;color:#0b0b13!important}
+.status-light{background:#9293ff;box-shadow:0 0 10px #9293ff22}
+.intro-proof>span+span:before{color:#aaaabd}.view-switch{background:#171720;border-color:#41414f}.view-switch button{color:#c5c5d2}.view-switch button[aria-pressed=true],.view-switch button[aria-pressed=true]:hover{background:#9293ff;color:#0b0b13}
+.desk{background-color:#2c2c38;background-image:repeating-linear-gradient(1deg,transparent 0 37px,#ffffff03 38px,#00000003 40px),linear-gradient(110deg,#252530,#353541 50%,#282833);box-shadow:inset 0 0 0 1px #77778c55,inset 0 2px 2px #b8b8d055,0 20px 50px #0004}
+.desk-mat{background:#cdcddd;background-image:linear-gradient(110deg,#c5c5d6,#d6d6e4 42%,#c8c8db);box-shadow:0 5px 12px #10101b44,inset 0 0 0 2px #e8e8f177}
+.desk-index{color:#353546;background:transparent}.desk-index>span{border-color:#65657e66}
+.desk-object .object-caption,.desk-bottom{background:#f0f0fa;color:#242438;border-color:#85859e}
+.book-cover{background-color:#a6a7f0;background-image:linear-gradient(100deg,#8d8ed0,#acadef 30%,#acadef 70%,#9697dc);color:#202036}
+.book-cover>strong>span{color:#41427a}.screen-code{background:#aaaaff;color:#202036}
+.work-card{background:#171720;border-color:#ffffff20}.work-card-body>small{color:#c0c0e5}.work-card-body>p{color:#c5c5d2}.project-tags>li{background:#22222f;color:#d5d5e7;border-color:#56566c}
+.project-filters>button{color:#c5c5d2}.project-filters>button[aria-pressed=true]{background:#9293ff;color:#0b0b13}.project-filters>button>span{border-color:#565673}
+.closing{background:#13131e;border-color:#ffffff20}.closing>a{border-color:#9293ff}footer>div>a{color:#e0e0ed}
+.workspace-dialog{background:#171720;color:#f5f5fa;border-color:#56566c;scrollbar-color:#797aaf #171720}.dialog-close{background:#343444;color:#fff}
+.workspace-dialog .eyebrow,.workspace-dialog [data-slot=dialog-description],.experience-summary,.timeline article>small,.timeline article>strong,.timeline p,.project-story p,.about-panel p,.notebook-entry p,.notebook-entry>small,.desktop-project-list small,.pencil-note{color:#c5c5d2}
+.workspace-dialog a:focus-visible,.workspace-dialog button:focus-visible{outline-color:#b3b4ff}.desktop-project-list>button,.timeline,.timeline article,.notebook-entry{border-color:#555568}
+.desktop-project-list>.all-projects,.about-panel a,.learning-panel a{color:#b3b4ff}.desktop-project-list>button:hover{color:#b3b4ff}.filled-button,.workspace-dialog .filled-button{background:#9293ff;color:#0b0b13}.filled-button:hover{background:#b0b1ff}.workspace-dialog .project-tags>li,.interest-tags>span{color:#e0e0ed;background:#292938;border-color:#56566c}
+@media(max-width:700px){.desk:after{background:#f0f0fa;color:#242438}}
