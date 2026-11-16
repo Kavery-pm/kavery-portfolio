@@ -55,3 +55,9 @@ git push
 ```
 
 Vercel automatically deploys pushes to its connected production branch. Folio and Digital Twin remain separate deployments.
+
+## Workspace design
+
+The interactive desktop is in `src/App.tsx` and `src/workspace.css`. Each object is a keyboard-accessible button that opens a Radix dialog. Escape dismisses dialogs. The List view provides direct section buttons, and the project cards below the desk are always available. Reduced-motion preferences disable hover movement.
+
+Keep editing `src/portfolio.ts` to add and reorder projects. The first project is no longer forced into a special layout. Project images shown here are illustrative previews rather than screenshots of the deployed apps.
